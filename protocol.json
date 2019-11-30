@@ -1,0 +1,51 @@
+{
+    "command": {
+        "arming": false,
+        "mode": "AUTO.LOITER",
+        "waypoint": [
+            {
+                "WaypointsID": "WP_0108",
+                "OrderId": "Order_0015",
+                "CodeIDName": "Takeoff",
+                "mode": "Flocking",
+                "Latitude": 0.0,
+                "Longitude": 0.0,
+                "Altitude": 0.0,
+                "Weight": {
+                    "avoidance": 1,
+                    "alignment": 1,
+                    "cohesion": 1
+                }
+            }
+        ]
+    },
+    "drones": [
+        {
+            "connected": false,
+            "armed": false,
+            "mission_finished": false,
+            "mode": "OFFBOARD",
+            "droneID": "1",
+            "leader": false,
+            "global_position": {
+                "Latitude": 0.0,
+                "Longitude": 0.0,
+                "Altitude": 0.0
+            },
+            "location": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+            },
+            "velocity": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+            }, 
+            "global_index": 0,
+            "battery": 100,
+            "SatelliteNumber": 26,
+            "HeadingDirection": "180"
+        }
+    ]
+}
